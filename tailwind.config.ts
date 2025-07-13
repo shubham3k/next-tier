@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			backdropBlur: {
-                '2': '2px', // or whatever percentage-equivalent you prefer
+                '3': '3px', // or whatever percentage-equivalent you prefer
                  },
 			colors: {
 				border: 'hsl(var(--border))',

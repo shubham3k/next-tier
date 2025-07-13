@@ -110,7 +110,7 @@ const Index = () => {
               className="absolute inset-0 bg-cover bg-center bg-no-repeat animate-zoom-out"
               style={{ backgroundImage: `url(${slide.image})` }}
             />
-            <div className="absolute inset-0 backdrop-blur-2 " />
+            <div className="absolute inset-0 backdrop-blur-3 " />
             
             <div className="relative h-full flex items-center">
               <div className="container mx-auto px-4">

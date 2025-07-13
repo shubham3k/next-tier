@@ -61,7 +61,7 @@ const Navigation = ({ scrollToSection, refs }: NavigationProps) => {
             <div className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">N</span>
             </div>
-            <span className="text-xl font-bold text-primary">NexTier</span>
+            <span className="text-xl font-bold text-primary">Sample website</span>
           </button>
 
           {/* Desktop Navigation */}
@@ -70,7 +70,7 @@ const Navigation = ({ scrollToSection, refs }: NavigationProps) => {
               <button
                 key={item.section}
                 onClick={() => handleNavClick(item.section, item.ref)}
-                className="text-sm font-medium transition-colors duration-200 hover:text-primary text-foreground/80"
+                className="text-lg font-bold text-black transition-colors duration-200 hover:text-primary"
               >
                 {item.name}
               </button>
